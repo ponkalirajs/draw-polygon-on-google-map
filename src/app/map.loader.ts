@@ -1,7 +1,7 @@
 export class MapLoaderService {
     private static promise: Promise<any>;
     public static load(): Promise<any> {
-      let browserKey = "AIzaSyD6yAEKiyqEAu_oDlSWNDswHiHHl8ko3sQ";
+      let browserKey = "Your_Google_Map_API_Key";
       let map = {
         URL: 'https://maps.googleapis.com/maps/api/js?libraries=geometry,drawing&key=' + browserKey + '&callback=__onGoogleLoaded',      
       }
